@@ -1,0 +1,16 @@
+class cse:
+    def __init__(self,name):
+        print(f"Details of {name}")
+        self.t= int(input("TELUGU : "))
+        self.e=int(input("ENGLISH : "))
+        self.m =int(input("MATHS : "))
+        self.s = int(input("SCIENCE : "))
+        self.so =int(input("SOCIAL : "))
+    def total(self):
+        return (self.t+ self.e+self.m+self.s+self.so)
+    def avg(self):
+        return self.total() / 5
+narasimha = cse("NARASHIMA")
+yuvaraj = cse("yuvaraj")
+pavan  = cse("pavan")
+

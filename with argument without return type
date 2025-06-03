@@ -1,0 +1,4 @@
+def sree(a,b):#with argument without return type
+    return a+b
+print(sree(15,20))
+print(sree(5,20))

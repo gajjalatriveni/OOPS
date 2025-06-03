@@ -1,0 +1,9 @@
+class com_lab:
+    bench=2
+    dustbin=1
+    def projector():
+        print("on")
+vin=com_lab()
+sid=com_lab()
+gin=com_lab()
+com_lab.projector() #only com_lab has access but not vin, sid, gin.

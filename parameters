@@ -1,0 +1,3 @@
+def sree(a,b):#parameters
+    print(a,b)
+sree(10,20)#arguments

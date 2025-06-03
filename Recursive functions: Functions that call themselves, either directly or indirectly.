@@ -1,0 +1,4 @@
+a="HGFHGJ"
+for i, e in enumerate(a):
+    print(i,e)
+#Recursive functions: Functions that call themselves, either directly or indirectly.
